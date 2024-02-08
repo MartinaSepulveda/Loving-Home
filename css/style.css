@@ -1,0 +1,265 @@
+/* Fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+body{
+    font-family: 'Dosis'
+}
+header{
+    background: url("../img/bg-header.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 25px;
+    ;
+}
+nav img{
+    width: 100px;
+    height: 90px;
+}
+.bg-nav-lovhome{
+    background: transparent !important;
+}
+.bg-nav-lovhome ul li a.nav-link{
+    color: #fff;
+    font-size: 25px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    
+}
+.bg-nav-lovhome ul li a.nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
+#hero{
+    text-align: center;
+    margin-top: 100px;
+}
+#hero h2{
+    font-size: 60px;
+    color: #9888A5;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+#hero h1{
+    color: #EFF6EE;
+    margin-bottom: 25px;
+    font-family: 'Josefin Sans';
+}
+#hero img{
+    margin-bottom: 30px;
+}
+#hero button{
+    padding: 2px 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-color: transparent;
+    margin: 2px 10px ;
+}
+#Servicios{
+    width: 100%;
+    position: relative;
+    padding: 40px;
+    text-align: center;
+
+}
+#Servicios h2{
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 600;
+}
+#Servicios p{
+    font-size: 20px;
+}
+#Servicios .bienvenidos{
+    font-size: 30px;
+}
+#Servicios .servicio{
+    margin-top: 20px;
+    position: relative;
+    padding: 12px 12px;
+
+}
+#Servicios .card-services{
+    background: #dbd1e9;
+    border-radius: 5px;
+    position: relative;
+    height: 320px;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#Servicios .card-services img{
+    width: 70px;
+    position: absolute;
+    top: -30px;
+    left: 40px;
+}
+#Ciudades{
+    width: 100%;
+    background: url("../img/bg-ciudades.png");
+    background-size: cover;
+    background-size: cover;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#Ciudades h2{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #EFF6EE;
+}
+#Ciudades img{
+    transition: .4s;
+}
+#Ciudades img:hover{
+    transform: scale(0.9);
+}
+#Ciudades .sede{
+    margin-bottom: 15px;
+}
+#Ciudades .dropdown{
+    margin-top: 10px;
+    color: #dbd1e9;
+}
+#Ofertas{
+ text-align: center;
+ background: #bcddef;
+}
+#Ofertas h2{
+    padding-top: 40px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 600;
+}
+#Ofertas h5{
+    font-size: 26px;
+    color: black;
+    margin: 0;
+}
+#Ofertas p{
+    font-size: 18px;
+    color: black;
+    margin: 0;
+
+}
+#Ofertas .cuadro{
+    background-color: #c9e5ee;
+    margin: 20px 65px;
+}
+#Ofertas .cuadro2{
+    background-color: #e8dbd5;
+    margin: 20px 65px;
+}
+#Ofertas .cuadro3{
+    background-color: #EFF6EE;
+    margin: 20px 65px;
+}
+#Ofertas .cuadro4{
+    background-color: #b7cd7f;
+    margin: 20px 65px;
+}
+#Ofertas .carousel{
+    max-width: 800px;
+    margin: 40px auto 0; 
+}
+#Testimonios{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    background: #d2bfe2;
+}
+#Testimonios h2{
+    padding-top: 40px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 600;
+}
+#Testimonios h5{
+    font-size: 28px;
+
+}
+#Testimonios p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+#Testimonios .test{
+    margin: 15px;
+}
+#Informacion{
+    width: 100%;
+    background: url(../img/bg-Info.png);
+    text-align: center;
+    padding: 150px 0px;
+}
+#Informacion h2{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color:#cadffb
+}
+
+#Informacion p{
+    font-size: 22px;
+    margin-bottom: 40px;
+    color: #EFF6EE
+}
+#Informacion form{
+    max-width:800px;
+    width: 100%;
+    margin: 0 auto;
+}
+#Informacion form input,
+#Informacion form select{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+    border: 1px solid #999;
+}
+#Informacion ul {
+    color: #EFF6EE
+}
+
+#Informacion form button{
+    padding: 8px 50px;
+    background: #d0b2f8;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #d0b2f8;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #6a9dde;
+    text-align: center;
+    padding: 50px;
+}
+footer img{
+    margin: 5px 5px;
+}
+
+#hero img, 
+#Servicios .servicio,
+#Testimonios .test,
+#Testimonios .test img{
+    transition: .5s;
+}
+#hero img:hover{
+    transform: scale(1.3);
+}
+#hero button:hover{
+    box-shadow: 4px 6px 6px 4px #6a9dde;
+}
+#Servicios .servicio:hover{
+    transform: scale(1.1);
+}
+#Testimonios .test:hover{
+    border-radius: 60px 0 60px 0;
+}
+#Testimonios .test img:hover{
+    border-radius: 60px 0 0 0;
+}
+
